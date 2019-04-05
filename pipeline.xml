@@ -1,0 +1,9 @@
+pool:
+  name: hkmaboro
+  timeoutInMinutes: 60
+
+trigger:
+  - master
+
+steps:
+- script: echo hello world
