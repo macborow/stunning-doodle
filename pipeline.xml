@@ -6,4 +6,4 @@ trigger:
   - master
 
 steps:
-- script: echo hello world
+- script: echo hello you
