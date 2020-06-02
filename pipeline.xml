@@ -3,7 +3,12 @@ pool:
   timeoutInMinutes: 60
 
 trigger:
-  - master
+  - test
+
+pr:
+  branches:
+    include:
+      - test
 
 steps:
-- script: echo hello world
+- script: echo hello you
